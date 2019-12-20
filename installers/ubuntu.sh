@@ -18,7 +18,7 @@ sudo update-alternatives --config gdm3.css
 
 # Git
 sudo apt install -y git
-cp $home/config/configs/git/.gitconfig $home/.gitconfig
+cp $home/configs/git/.gitconfig $home/.gitconfig
 
 # GNOME
 sudo apt install -y gnome-tweak-tool fonts-firacode gnome-shell-extensions gnome-shell-extension-dashtodock papirus-icon-theme
@@ -32,12 +32,12 @@ sudo systemctl disable ssh
 # Terminator
 sudo apt install -y terminator
 mkdir $home/.config/terminator
-cp $home/config/configs/terminator/config $home/.config/terminator/config
+cp $home/configs/terminator/config $home/.config/terminator/config
 sudo update-alternatives --config x-terminal-emulator
 
 # Vim
 sudo apt install -y vim
-cp $home/config/configs/vim/.vimrc $home
+cp $home/configs/vim/.vimrc $home
 
 # Metasploit
 sudo apt install -y curl
@@ -47,10 +47,10 @@ sudo rm -f msfinstall
 # Zsh
 sudo apt install -y curl zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
-cp $home/config/configs/zsh/.zshrc $home
+cp $home/configs/zsh/.zshrc $home
 chsh -s $(which zsh)
 
-rm -rf $home/config
+rm -rf $home/configs
 sudo apt update -y
 sudo apt dist-upgrade
 

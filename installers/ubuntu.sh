@@ -22,13 +22,14 @@ sudo mkdir /usr/share/gnome-shell/extensions/inactive
 sudo mv /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com /usr/share/gnome-shell/extensions/inactive
 dconf load / < $home/configs/dconf/ubuntu
 
-# Git
-sudo apt install -y git
-cp $home/configs/git/.gitconfig $home/.gitconfig
-
 # Ssh
 sudo apt install -y openssh-server
 sudo systemctl disable ssh
+ssh-keygen -t rsa
+
+# Git
+sudo apt install -y git
+cp $home/configs/git/.gitconfig $home/.gitconfig
 
 # Terminator
 sudo apt install -y terminator

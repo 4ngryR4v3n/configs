@@ -16,14 +16,15 @@ sudo snap install telegram-desktop
 sudo apt install -y gnome-session
 sudo update-alternatives --config gdm3.css
 
+# Gnome
+sudo apt install -y dconf-editor gnome-tweak-tool fonts-firacode gnome-shell-extensions gnome-shell-extension-dashtodock papirus-icon-theme
+sudo mkdir /usr/share/gnome-shell/extensions/inactive
+sudo mv /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com /usr/share/gnome-shell/extensions/inactive
+dconf load / < $home/configs/dconf/ubuntu
+
 # Git
 sudo apt install -y git
 cp $home/configs/git/.gitconfig $home/.gitconfig
-
-# GNOME
-sudo apt install -y gnome-tweak-tool fonts-firacode gnome-shell-extensions gnome-shell-extension-dashtodock papirus-icon-theme
-sudo mkdir /usr/share/gnome-shell/extensions/inactive
-sudo mv /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com /usr/share/gnome-shell/extensions/inactive
 
 # Ssh
 sudo apt install -y openssh-server

@@ -6,7 +6,7 @@ cd
 home=$(pwd)
 
 # Install miscellaneous packages
-sudo apt install -y aircrack-ng bleachbit gparted htop macchanger netdiscover net-tools nmap ranger transmission virtualbox wireshark
+sudo apt install -y aircrack-ng bleachbit gparted htop macchanger netdiscover net-tools nmap ranger transmission virtualbox virtualbox-guest-additions-iso wireshark
 sudo snap install --classic code
 sudo snap install discord
 sudo snap install spotify

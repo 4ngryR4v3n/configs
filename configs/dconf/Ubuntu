@@ -3,6 +3,13 @@ first-run=false
 launch-count=1
 launch-time=int64 1576733006
 
+[ca/desrt/dconf-editor]
+saved-pathbar-path='applications'
+saved-view='/'
+window-height=712
+window-is-maximized=false
+window-width=1061
+
 [com/ubuntu/update-notifier]
 release-check-time=uint32 1576733003
 
@@ -26,7 +33,7 @@ window-position=(26, 23)
 word-size=64
 
 [org/gnome/control-center]
-last-panel='mouse'
+last-panel='sound'
 
 [org/gnome/desktop/app-folders]
 folder-children=['Utilities', 'Sundry', 'YaST']
@@ -50,6 +57,7 @@ translate=true
 
 [org/gnome/desktop/background]
 color-shading-type='solid'
+draw-background=true
 picture-options='zoom'
 picture-uri='file:///home/rogue/.local/share/backgrounds/2019-12-18-22-08-01-21y1orsyb8211.jpg'
 primary-color='#000000000000'
@@ -67,8 +75,9 @@ enable-hot-corners=false
 gtk-im-module='gtk-im-context-simple'
 gtk-theme='Adwaita-dark'
 icon-theme='Papirus'
-monospace-font-name='Fira Code weight=453 10'
+monospace-font-name='Fira Code weight=453 11'
 show-battery-percentage=false
+text-scaling-factor=1.0
 
 [org/gnome/desktop/media-handling]
 autorun-x-content-ignore=@as []
@@ -76,8 +85,11 @@ autorun-x-content-open-folder=@as []
 autorun-x-content-start-app=@as []
 
 [org/gnome/desktop/notifications]
-application-children=['firefox', 'spotify-spotify', 'org-gnome-software', 'telegram-desktop-telegramdesktop', 'org-gnome-nautilus']
+application-children=['firefox', 'spotify-spotify', 'org-gnome-software', 'telegram-desktop-telegramdesktop', 'org-gnome-nautilus', 'discord-discord', 'virtualbox']
 show-in-lock-screen=false
+
+[org/gnome/desktop/notifications/application/discord-discord]
+application-id='discord_discord.desktop'
 
 [org/gnome/desktop/notifications/application/firefox]
 application-id='firefox.desktop'
@@ -94,11 +106,15 @@ application-id='spotify_spotify.desktop'
 [org/gnome/desktop/notifications/application/telegram-desktop-telegramdesktop]
 application-id='telegram-desktop_telegramdesktop.desktop'
 
+[org/gnome/desktop/notifications/application/virtualbox]
+application-id='virtualbox.desktop'
+
 [org/gnome/desktop/peripherals/keyboard]
 numlock-state=true
 
 [org/gnome/desktop/peripherals/mouse]
 accel-profile='flat'
+left-handed=false
 
 [org/gnome/desktop/peripherals/touchpad]
 natural-scroll=false
@@ -126,10 +142,8 @@ idle-delay=uint32 0
 
 [org/gnome/desktop/sound]
 allow-volume-above-100-percent=false
-theme-name='freedesktop'
-
-[org/gnome/desktop/wm/keybindings]
-switch-to-workspace-1=['Menu']
+event-sounds=true
+theme-name='__custom'
 
 [org/gnome/desktop/wm/preferences]
 button-layout='appmenu:minimize,maximize,close'
@@ -143,8 +157,8 @@ active-plugins=['spell', 'filebrowser', 'modelines', 'time', 'docinfo']
 
 [org/gnome/gedit/plugins/filebrowser]
 root='file:///'
-tree-view=false
-virtual-root='file:///home/rogue/github/notes'
+tree-view=true
+virtual-root='file:///home/rogue'
 
 [org/gnome/gedit/preferences/editor]
 scheme='classic'
@@ -157,7 +171,7 @@ show-tabs-mode='auto'
 bottom-panel-size=140
 side-panel-active-page='GeditWindowDocumentsPanel'
 side-panel-size=200
-size=(721, 555)
+size=(1561, 917)
 state=87168
 
 [org/gnome/mutter]
@@ -169,9 +183,10 @@ default-zoom-level='small'
 [org/gnome/nautilus/preferences]
 default-folder-viewer='icon-view'
 search-filter-time-type='last_modified'
+search-view='list-view'
 
 [org/gnome/nautilus/window-state]
-initial-size=(1001, 528)
+initial-size=(1006, 704)
 maximized=false
 
 [org/gnome/settings-daemon/plugins/color]
@@ -195,7 +210,8 @@ hinting='slight'
 app-picker-view=uint32 1
 command-history=['r']
 enabled-extensions=['drive-menu@gnome-shell-extensions.gcampax.github.com', 'ubuntu-appindicators@ubuntu.com', 'dash-to-dock@micxgx.gmail.com']
-favorite-apps=['org.gnome.Terminal.desktop', 'terminator.desktop', 'org.gnome.Nautilus.desktop', 'gparted.desktop', 'firefox.desktop', 'spotify_spotify.desktop', 'discord_discord.desktop', 'telegram-desktop_telegramdesktop.desktop', 'virtualbox.desktop', 'org.gnome.gedit.desktop', 'code_code.desktop', 'wireshark.desktop', 'install4j_1rq6ra4-BurpSuiteCommunity.desktop']
+favorite-apps=['org.gnome.Terminal.desktop', 'terminator.desktop', 'org.gnome.Nautilus.desktop', 'gparted.desktop', 'synaptic.desktop', 'firefox.desktop', 'spotify_spotify.desktop', 'discord_discord.desktop', 'telegram-desktop_telegramdesktop.desktop', 'virtualbox.desktop', 'org.gnome.gedit.desktop', 'code_code.desktop', 'wireshark.desktop', 'install4j_1rq6ra4-BurpSuiteCommunity.desktop']
+had-bluetooth-devices-setup=true
 
 [org/gnome/shell/extensions/dash-to-dock]
 autohide-in-fullscreen=true
@@ -229,7 +245,7 @@ show-home=false
 show-trash=false
 
 [org/gnome/software]
-check-timestamp=int64 1576791287
+check-timestamp=int64 1576954795
 first-run=false
 
 [org/gnome/system/location]
@@ -270,7 +286,7 @@ selected-color=(true, 0.0, 0.0, 0.0, 1.0)
 clock-format='12h'
 date-format='regular'
 location-mode='path-bar'
-show-hidden=false
+show-hidden=true
 show-size-column=true
 show-type-column=true
 sidebar-width=166
@@ -278,5 +294,5 @@ sort-column='name'
 sort-directories-first=true
 sort-order='ascending'
 type-format='category'
-window-position=(26, 23)
-window-size=(911, 498)
+window-position=(3149, 340)
+window-size=(981, 712)

@@ -1,0 +1,10 @@
+[Unit]
+Description=Automatic config backup
+
+[Service]
+User=USER
+ExecStart=/home/USER/.cfg/services/cfgbackup.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

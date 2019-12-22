@@ -33,7 +33,7 @@ window-position=(26, 23)
 word-size=64
 
 [org/gnome/control-center]
-last-panel='sound'
+last-panel='bluetooth'
 
 [org/gnome/desktop/app-folders]
 folder-children=['Utilities', 'Sundry', 'YaST']
@@ -171,7 +171,7 @@ show-tabs-mode='auto'
 bottom-panel-size=140
 side-panel-active-page='GeditWindowDocumentsPanel'
 side-panel-size=200
-size=(1561, 917)
+size=(715, 508)
 state=87168
 
 [org/gnome/mutter]
@@ -186,7 +186,7 @@ search-filter-time-type='last_modified'
 search-view='list-view'
 
 [org/gnome/nautilus/window-state]
-initial-size=(1006, 704)
+initial-size=(957, 591)
 maximized=false
 
 [org/gnome/settings-daemon/plugins/color]
@@ -210,7 +210,7 @@ hinting='slight'
 app-picker-view=uint32 1
 command-history=['r']
 enabled-extensions=['drive-menu@gnome-shell-extensions.gcampax.github.com', 'ubuntu-appindicators@ubuntu.com', 'dash-to-dock@micxgx.gmail.com']
-favorite-apps=['org.gnome.Terminal.desktop', 'terminator.desktop', 'org.gnome.Nautilus.desktop', 'gparted.desktop', 'synaptic.desktop', 'firefox.desktop', 'spotify_spotify.desktop', 'discord_discord.desktop', 'telegram-desktop_telegramdesktop.desktop', 'virtualbox.desktop', 'org.gnome.gedit.desktop', 'code_code.desktop', 'wireshark.desktop', 'install4j_1rq6ra4-BurpSuiteCommunity.desktop']
+favorite-apps=['org.gnome.Terminal.desktop', 'terminator.desktop', 'org.gnome.Nautilus.desktop', 'gparted.desktop', 'firefox.desktop', 'spotify_spotify.desktop', 'discord_discord.desktop', 'telegram-desktop_telegramdesktop.desktop', 'virtualbox.desktop', 'org.gnome.gedit.desktop', 'code_code.desktop', 'wireshark.desktop', 'install4j_1rq6ra4-BurpSuiteCommunity.desktop']
 had-bluetooth-devices-setup=true
 
 [org/gnome/shell/extensions/dash-to-dock]
@@ -286,7 +286,7 @@ selected-color=(true, 0.0, 0.0, 0.0, 1.0)
 clock-format='12h'
 date-format='regular'
 location-mode='path-bar'
-show-hidden=true
+show-hidden=false
 show-size-column=true
 show-type-column=true
 sidebar-width=166
@@ -294,5 +294,5 @@ sort-column='name'
 sort-directories-first=true
 sort-order='ascending'
 type-format='category'
-window-position=(3149, 340)
+window-position=(26, 23)
 window-size=(981, 712)

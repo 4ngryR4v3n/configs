@@ -12,7 +12,7 @@ chmod +x ~/.cfg/installers/ubuntu.sh
 
 ## Usage (standalone)
 
-Use this if you want to only add the backup functionality.
+Use this if you want to only add the backup functionality (be sure to replace all instances of "USER" with your username).
 
 ```
 sudo cp $home/$cfgdir/services/cfgbackup.service /etc/systemd/system/cfgbackup.service

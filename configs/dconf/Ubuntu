@@ -69,8 +69,8 @@ xkb-options=@as []
 
 [org/gnome/desktop/interface]
 clock-format='12h'
-clock-show-date=false
-clock-show-weekday=false
+clock-show-date=true
+clock-show-weekday=true
 enable-hot-corners=false
 gtk-im-module='gtk-im-context-simple'
 gtk-theme='Adwaita-dark'

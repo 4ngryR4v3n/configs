@@ -5,7 +5,7 @@ cd
 
 home=$(cd && pwd)
 cfgdir="$home/.cfg/configs"
-int=60
+int=300
 
 [ -d "$cfgdir" ] || git clone https://github.com/Perdyx/configs.git $home/.cfg
 

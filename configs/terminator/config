@@ -6,6 +6,7 @@
   [[default]]
     icon_bell = False
     background_darkness = 0.85
+    background_type = transparent
     cursor_color = "#d0d0d0"
     foreground_color = "#d0d0d0"
     scrollbar_position = hidden

@@ -1,4 +1,4 @@
-# Configs (my personal configuration files and their installer scripts)
+# Configs
 
 ## Usage
 
@@ -15,7 +15,8 @@ chmod +x ~/.cfg/installers/ubuntu.sh
 Use this if you want to only add the backup functionality (be sure to replace all instances of "USER" with your username).
 
 ```
-sudo cp $home/$cfgdir/services/cfgbackup.service /etc/systemd/system/cfgbackup.service
-sudo chmod 644 /etc/systemd/system/cfgbackup.service
-sudo systemctl enable cfgbackup
+git clone https://github.com/Perdyx/configs.git ~/.cfg
+sudo cp ~/.cfg/services/cfgbackup.service /etc/systemd/system
+sudo chmod +x ~/.cfg/services/cfgbackup.sh
+sudo systemctl enable cfgbackup.service
 ```

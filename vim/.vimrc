@@ -1,5 +1,3 @@
-set number relativenumber
-set nu rnu
+set number
 syntax on
-set expandtab shiftwidth=3 softtabstop=3
-set cursorline
+set expandtab shiftwidth=4 softtabstop=4

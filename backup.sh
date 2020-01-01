@@ -36,8 +36,8 @@ if [ -f $cfg_zsh ]; then
     commit+=("$cfg_zsh")
 fi
 
-commit_str=$(printf "%s\n"  "${commit[@]}")
+commit_str=$(printf "%s\n" "${commit[@]}")
 
 cd $repo
 git add .
-git commit -m "Update\n$commit_str" && git push
+git commit -m "$commit_str" && git push

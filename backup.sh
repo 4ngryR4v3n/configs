@@ -40,4 +40,4 @@ commit_str=$(printf "Update\n%s\n"  "${commit[@]}")
 
 cd $repo
 git add .
-git commit -m "" -m '`$commit_str`' && git push
+git commit -m "$commit_str" && git push

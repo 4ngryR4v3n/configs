@@ -1,17 +1,13 @@
 [global_config]
+  tab_position = bottom
   title_hide_sizetext = True
-  suppress_multiple_term_dialog = True
 [keybindings]
 [profiles]
   [[default]]
     icon_bell = False
-    background_darkness = 0.85
-    background_type = transparent
-    cursor_color = "#d0d0d0"
-    foreground_color = "#d0d0d0"
-    scrollbar_position = hidden
-    scrollback_infinite = True
-    palette = "#000000:#ff0000:#33ff00:#ff0099:#0066ff:#cc00ff:#00ffff:#d0d0d0:#808080:#ff0000:#33ff00:#ff0099:#0066ff:#cc00ff:#00ffff:#ffffff"
+    cursor_color = "#aaaaaa"
+    foreground_color = "#ffffff"
+    palette = "#1F2229:#D41919:#5EBDAB:#FEA44C:#367bf0:#BF2E5D:#49AEE6:#E6E6E6:#8C42AB:#EC0101:#47D4B9:#FF8A18:#277FFF:#D71655:#05A1F7:#FFFFFF"
     copy_on_selection = True
 [layouts]
   [[default]]

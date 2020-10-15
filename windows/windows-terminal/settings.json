@@ -51,12 +51,13 @@
                 "name": "Ubuntu",
                 "source": "Windows.Terminal.Wsl",
                 "fontFace": "JetBrains Mono",
-                "fontSize": 9,
+                "fontSize": 8,
                 "fontWeight": "medium",
+                "padding": "0",
                 "colorScheme": "Hunt",
                 "scrollbarState": "hidden",
                 "useAcrylic": true,
-                "acrylicOpacity": 0.0
+                "acrylicOpacity": 0.0,
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
@@ -70,33 +71,6 @@
     // Add custom color schemes to this array.
     // To learn more about color schemes, visit https://aka.ms/terminal-color-schemes
     "schemes": [
-        {
-            "name": "Amber",
-        
-            "cursorColor": "#FFBF00",
-            "selectionBackground": "#C78F00",
-        
-            "background" : "#000000",
-            "foreground" : "#FFBF00",
-        
-            "black" : "#000000",
-            "red" : "#FFF14E",
-            "green" : "#FFBF00",
-            "yellow" : "#FFBF00",
-            "blue" : "#C78F00",
-            "purple" : "#FFF14E",
-            "cyan" : "#FFBF00",
-            "white" : "#FFBF00",
-        
-            "brightBlack" : "#000000",
-            "brightRed" : "#FFF14E",
-            "brightGreen" : "#FFF14E",
-            "brightYellow" : "#FFF14E",
-            "brightBlue" : "#C78F00",
-            "brightPurple" : "#FFF14E",
-            "brightCyan" : "#FFF14E",
-            "brightWhite" : "#FFBF00"
-        },
         {
             "name": "Hunt",
         

@@ -1,4 +1,4 @@
-hi StatusLine ctermbg=0 cterm=NONE
+hi StatusLine ctermbg=NONE cterm=NONE
 
 syntax off
 set number relativenumber
@@ -9,10 +9,9 @@ set smartindent
 
 set laststatus=2
 set statusline=
-set statusline+=\ %t\ %F
+set statusline+=\ [%n]\ %t\ %F
 set statusline+=\ %=
-set statusline+=\ CHAR=[%{matchstr(getline('.'),\ '\\%'\ .\ col('.')\ .\ 'c.')}\ ASCII=\%003b\ HEX=0x\%02B]
-set statusline+=\ POS=[ROW=%06l\ COl=%06v\ LINES=%06L\ %p%%]
-set statusline+=\ INFO=[%{strlen(&fenc)?&fenc:'none'},\ %{&ff},\ %Y]
-set statusline+=\ BUF=[%n]
+set statusline+=\ %{matchstr(getline('.'),\ '\\%'\ .\ col('.')\ .\ 'c.')}\ \%003b\ 0x\%02B
+set statusline+=\ %l/%v\ %L\ %p%%
+set statusline+=\ [%{strlen(&fenc)?&fenc:'none'}\ %{&ff}\ %Y]
 set statusline+=\ %h%m%r%w

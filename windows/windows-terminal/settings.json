@@ -53,8 +53,10 @@
                 "fontFace": "JetBrains Mono",
                 "fontSize": 9,
                 "fontWeight": "medium",
-                "colorScheme": "Amber",
-                "scrollbarState": "hidden"
+                "colorScheme": "Hunt",
+                "scrollbarState": "hidden",
+                "useAcrylic": true,
+                "acrylicOpacity": 0.0
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
@@ -69,7 +71,7 @@
     // To learn more about color schemes, visit https://aka.ms/terminal-color-schemes
     "schemes": [
         {
-            "name" : "Amber",
+            "name": "Amber",
         
             "cursorColor": "#FFBF00",
             "selectionBackground": "#C78F00",
@@ -94,6 +96,33 @@
             "brightPurple" : "#FFF14E",
             "brightCyan" : "#FFF14E",
             "brightWhite" : "#FFBF00"
+        },
+        {
+            "name": "Hunt",
+        
+            "cursorColor": "#AFCED8",
+            "selectionBackground": "#AFCED8",
+        
+            "background" : "#0D1B25",
+            "foreground" : "#AFCED8",
+        
+            "black" : "#0D1B25",
+            "red" : "#136587",
+            "green" : "#297896",
+            "yellow" : "#2A7599",
+            "blue" : "#417C95",
+            "purple" : "#3384A1",
+            "cyan" : "#5696AF",
+            "white" : "#AFCED8",
+        
+            "brightBlack" : "#7A9097",
+            "brightRed" : "#136587",
+            "brightGreen" : "#297896",
+            "brightYellow" : "#2A7599",
+            "brightBlue" : "#417C95",
+            "brightPurple" : "#3384A1",
+            "brightCyan" : "#5696AF",
+            "brightWhite" : "#AFCED8"
         }
     ],
 

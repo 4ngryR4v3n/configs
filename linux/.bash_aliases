@@ -1,16 +1,13 @@
 #!/bin/bash
 
-#
-# Digital Ocean
-#
+alias update="sudo apt update -y && sudo apt full-upgrade -y && sudo apt autoremove -y"
+alias ls="ls -la"
 
-# Config
+# VPS
 
 user="root"
 ip="157.245.232.195"
 tunnelport="8089"
-
-# Open a remote shell
 
 function droplet()
 {
@@ -18,7 +15,6 @@ function droplet()
 }
 
 # Open a tunnel for Burp to proxy all requests through. Remember to configure your SOCKS proxy in Burp to 127.0.0.1:PORT
-
 function proxytunnel()
 {
 	ssh -C -D $tunnelport $user@$ip &

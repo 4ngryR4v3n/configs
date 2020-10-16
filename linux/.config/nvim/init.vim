@@ -2,6 +2,7 @@ hi StatusLine ctermbg=NONE cterm=NONE
 
 syntax on
 set number relativenumber
+set wrap linebreak
 
 set tabstop=2
 set shiftwidth=2

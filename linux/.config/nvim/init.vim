@@ -1,11 +1,14 @@
 hi StatusLine ctermbg=NONE cterm=NONE
 
-syntax off
+syntax on
 set number relativenumber
 
 set tabstop=2
-set autoindent
+set shiftwidth=2
+set softtabstop=2
+set noexpandtab
 set smartindent
+set smarttab
 
 set laststatus=2
 set statusline=

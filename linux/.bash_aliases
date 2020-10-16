@@ -1,7 +1,7 @@
 #!/bin/bash
 
 alias update="sudo apt update -y && sudo apt full-upgrade -y && sudo apt autoremove -y"
-alias ls="ls -la"
+alias v="vim"
 
 # VPS
 

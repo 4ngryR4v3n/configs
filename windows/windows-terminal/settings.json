@@ -8,7 +8,7 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
 
-    "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+    "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
 
     // You can add more global application settings here.
     // To learn more about global settings, visit https://aka.ms/terminal-global-settings
@@ -28,6 +28,12 @@
         "defaults":
         {
             // Put settings here that you want to apply to all profiles.
+            "fontFace": "JetBrains Mono",
+            "fontSize": 9,
+            "fontWeight": "medium",
+            "colorScheme": "Gotham",
+            "scrollbarState": "hidden",
+            "cursorShape":"filledBox"
         },
         "list":
         [
@@ -49,14 +55,7 @@
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "hidden": false,
                 "name": "Ubuntu",
-                "source": "Windows.Terminal.Wsl",
-                "fontFace": "JetBrains Mono",
-                "fontSize": 9,
-                "fontWeight": "medium",
-                "colorScheme": "Hunt",
-                "scrollbarState": "hidden",
-                "useAcrylic": true,
-                "acrylicOpacity": 0.5,
+                "source": "Windows.Terminal.Wsl"
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
@@ -71,32 +70,28 @@
     // To learn more about color schemes, visit https://aka.ms/terminal-color-schemes
     "schemes": [
         {
-            "name": "Hunt",
-        
-            "cursorColor": "#AFCED8",
-            "selectionBackground": "#AFCED8",
-        
-            "background" : "#0D1B25",
-            "foreground" : "#AFCED8",
-        
-            "black" : "#0D1B25",
-            "red" : "#136587",
-            "green" : "#297896",
-            "yellow" : "#2A7599",
-            "blue" : "#417C95",
-            "purple" : "#3384A1",
-            "cyan" : "#5696AF",
-            "white" : "#AFCED8",
-        
-            "brightBlack" : "#7A9097",
-            "brightRed" : "#136587",
-            "brightGreen" : "#297896",
-            "brightYellow" : "#2A7599",
-            "brightBlue" : "#417C95",
-            "brightPurple" : "#3384A1",
-            "brightCyan" : "#5696AF",
-            "brightWhite" : "#AFCED8"
-        }
+            "name": "Gotham",
+            "background": "#0a0f14",
+            "foreground": "#cccccc",
+            "cursorColor": "#98d1ce",
+            "black": "#505050",
+            "blue": "#13789c",
+            "brightBlack": "#62807f",
+            "brightBlue": "#72b3ca",
+            "brightCyan": "#599caa",
+            "brightGreen": "#abe4bb",
+            "brightPurple": "#b8bcdf",
+            "brightRed": "#d26939",
+            "brightWhite": "#d3ebe9",
+            "brightYellow": "#f6d8a1",
+            "cyan": "#33859d",
+            "green": "#26a98b",
+            "purple": "#888ba5",
+            "red": "#dc362c",
+            "white": "#98d1ce",
+            "yellow": "#edb54b",
+            "selectionBackground": "#ffffff"
+          }
     ],
 
     // Add custom actions and keybindings to this array.

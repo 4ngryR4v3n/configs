@@ -12,6 +12,7 @@ set smartindent
 set smarttab
 
 set laststatus=2
+let g:airline_powerline_fonts = 1
 set statusline=
 set statusline+=\ [%n]\ %t\ %F
 set statusline+=\ %=
